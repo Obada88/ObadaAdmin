@@ -1,0 +1,60 @@
+
+.DataTable{
+    height: 600px;
+    padding: 20px;
+    box-shadow:1px 2px 5px 0.5px rgba(201,201,201,0.47);
+    -webkit-box-shadow:  1px 2px 5px 0.5px rgba(201,201,201,0.47);
+    -moz-box-shadow:  1px 2px 5px 0.5px rgba(201,201,201,0.47);
+}
+
+.cellWithStatus{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.05);
+    color: green;
+   
+}
+
+.cellAction{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.viewButton{
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px dotted rgba(0, 0, 139, 0.324);
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.deleteButton{
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px dotted rgba(220, 20, 60, 0.151);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.titleDataTable{
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linkTal{
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+}
